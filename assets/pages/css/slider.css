@@ -16,6 +16,9 @@
     display: table;
     vertical-align: middle;
 }
+.aaction{
+	style="color:white; text-decoration:none;"
+}
 
 .center-block-body {
     height: 100%;
@@ -369,6 +372,9 @@
 
 /* Stylesheet design for under max-width: 992px */
 @media (max-width: 991px) {            /* 992px */
+	.carousel-slider .item {
+		min-height:300px
+	}
     .carousel-slider .carousel-title-v1 {
         font-size: 50px;
     }
@@ -399,6 +405,9 @@
     }
 
     .carousel-slider .carousel-subtitle-v4 {
+        font-size: 30px;
+    }
+    .carousel-slider .carousel-subtitle-v6 {
         font-size: 30px;
     }
 
