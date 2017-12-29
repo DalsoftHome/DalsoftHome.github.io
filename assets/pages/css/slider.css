@@ -373,7 +373,7 @@
 /* Stylesheet design for under max-width: 992px */
 @media (max-width: 991px) {            /* 992px */
 	.carousel-slider .item {
-		min-height:300px
+		    min-height: 300px
 	}
     .carousel-slider .carousel-title-v1 {
         font-size: 50px;
