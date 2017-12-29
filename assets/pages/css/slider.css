@@ -373,7 +373,7 @@
 /* Stylesheet design for under max-width: 992px */
 @media (max-width: 991px) {            /* 992px */
 	.carousel-slider .item {
-		    min-height: 300px
+		min-height:190px;
 	}
     .carousel-slider .carousel-title-v1 {
         font-size: 50px;
@@ -408,7 +408,7 @@
         font-size: 30px;
     }
     .carousel-slider .carousel-subtitle-v6 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     /* Carousel Promo Like */
