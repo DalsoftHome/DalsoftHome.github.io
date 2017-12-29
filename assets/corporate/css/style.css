@@ -23,7 +23,6 @@ h1 {
 .main h1 {
 	margin-top: -6px;
 }
-
 .pmaking{
 	font: 100 'Open Sans', sans-serif,"맑은고딕";
 	float: left;
@@ -32,7 +31,9 @@ h1 {
     line-height: 1.8;
     padding-bottom: 10px;
 }
-
+.smartcontent{
+	width : 59%;
+}
 /***
 Fix link outlines after click
 ***/
@@ -2332,7 +2333,7 @@ Demo Utils
   height: 35px;
   font-size: 24px;
   font-weight: normal;
-  top: 40%;
+  top: 43.5%;
   width: 35px;
   background: #222;
   opacity: 0.5;
@@ -3088,4 +3089,7 @@ Styler Panel
 
 .fancybox-opened {
   z-index: 100001;
+}
+@media (max-width: 991px) {
+.smartcontent{width:100%}
 }
